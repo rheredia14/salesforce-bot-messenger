@@ -12,6 +12,7 @@ let org = nforce.createConnection({
     clientSecret: SF_CLIENT_SECRET,
     redirectUri: 'http://localhost:3000/oauth/_callback',
     mode: 'single',
+    environment: 'sandbox',
     autoRefresh: true
 });
 
